@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_menu_editar"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="editar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bar_menu_compartir"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Compartir" />
+    <item
+        android:id="@+id/bar_menu_servicios"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/bar_menu_configuracion"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Configuración" />
+</menu>
